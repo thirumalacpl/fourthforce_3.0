@@ -67,7 +67,7 @@ reader.onload = function() {
 // get the dataURL of the file, a base 64 decoded string
 var dataURL = reader.result;
 //save the file to the server
-var req = Ajax("http://fourthforce.in/verify/savepng.php", "POST", "file=" + ofName + "&content=" + dataURL);
+var req = Ajax("http://staging.eimpressive.com/watchguardlive/savepng.php", "POST", "file=" + ofName + "&content=" + dataURL);
 if (req.status == 200) {
 // return the full path of the saved file
 fName = req.responseText;
@@ -110,7 +110,7 @@ reader.onload = function() {
 // get the dataURL of the file, a base 64 decoded string
 var dataURL = reader.result;
 //save the file to the server
-var req = Ajax("http://fourthforce.in/verify/savepng.php", "POST", "file=" + ofName + "&content=" + dataURL);
+var req = Ajax("http://staging.eimpressive.com/watchguardlive/savepng.php", "POST", "file=" + ofName + "&content=" + dataURL);
 if (req.status == 200) {
 // return the full path of the saved file
 fName = req.responseText;
