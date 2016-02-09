@@ -498,7 +498,7 @@ document.getElementById('remarkg').value = "";
 //alert(region);
 //alert(user_id);
 
-alert('count');
+//alert('count');
 $.ajax({url: 'http://staging.eimpressive.com/slim-four/count.php?region='+region+"&user_id="+user_id,
   data:$('#update_to_inprogressw').serialize(),
   type: 'post',                   
